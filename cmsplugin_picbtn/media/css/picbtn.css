@@ -1,0 +1,59 @@
+.picbtn {
+	float:left;
+	width:250px;
+	padding:0px 13px 0px 0px;
+	margin:0px 10px 20px 10px;
+	text-align:right;
+	color:#01518C;
+	background-image:url(/media/images/picbtn/picbtn_bg.jpg);
+	background-repeat:repeat-y;
+}
+
+.picbtn .picbtn-top {
+	height:8px;
+	width:263px;
+	background-image:url(/media/images/picbtn/picbtn_bg_top.jpg);
+}
+
+.picbtn a{
+	color:inherit;
+	text-decoration:none;
+}
+
+.picbtn h2{
+	font-size:23px;
+	line-height:25px;
+}
+.picbtn .picbtn-bottom {
+	width:243px;
+	min-height:75px;
+	padding:0px 10px 10px 10px;
+	
+	background-position:bottom;
+	background-repeat:no-repeat;	
+}
+.picbtn.blank .picbtn-bottom {
+	background-image:url(/media/images/picbtn/picbtn_bt_bottom_blank.jpg);
+}
+
+.picbtn.globe .picbtn-bottom {
+	background-image:url(/media/images/picbtn/picbtn_bt_bottom_globe.jpg);
+}
+
+.picbtn.checkboxes .picbtn-bottom {
+	background-image:url(/media/images/picbtn/picbtn_bt_bottom_checkboxes.jpg);
+}
+
+.picbtn.lifering .picbtn-bottom {
+	background-image:url(/media/images/picbtn/picbtn_bt_bottom_lifering.jpg);
+}
+
+
+#button-benefits {
+	background-image:url(/media/images/button_checkboxes_bg.jpg);
+	margin-bottom:0px;
+}
+
+#button-faq {
+	background-image:url(/media/images/button_lifering_bg.jpg);
+}
